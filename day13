@@ -1,0 +1,5 @@
+testname = input ("Enter name of the test: ")
+score = int(input ("How many points You scored? "))
+maxpoints = int(input ("How many points You could get? "))
+grade = (score*100/maxpoints)
+print(str(grade).split(".")[0])
