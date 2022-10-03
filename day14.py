@@ -1,4 +1,5 @@
 from getpass import getpass as input
+print("Game of Rock x Paper x Scissors")
 player1 = input ("Player 1 Chose (r)ock, (p)aper or (s)cissors: ")
 player2 = input ("Player 2 Chose (r)ock, (p)aper or (s)cissors: ")
 if player1 == "r":
